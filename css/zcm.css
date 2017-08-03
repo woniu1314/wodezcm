@@ -1,0 +1,171 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input,
+button,
+section,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "微软雅黑", "SimSun";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea,
+button {
+  background: none;
+  border: none;
+  autoline: none;
+}
+table {
+  border-collapse: collapse;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 "微软雅黑", "SimSun", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+body {
+  background: #f9f9f9;
+}
+html {
+  font-size: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 0.8rem;
+  background: #FA3432;
+  padding: 0rem 0.3rem;
+  color: #fff;
+}
+.header .iconfont {
+  color: #fff;
+  font-size: 0.35rem;
+}
+.header .back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .title {
+  font-size: 0.26rem;
+}
+.footer {
+  height: 1.65rem;
+  padding-top: 0.45rem;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #E0E0DF;
+  margin-top: 0.23rem;
+}
+.footer .download {
+  color: #494848;
+  font-size: 0.28rem;
+}
+.footer .download a {
+  color: #494848;
+  margin: 0rem 0.08rem;
+}
+.footer .copy {
+  color: #9A9B9C;
+  font-size: 0.26rem;
+  line-height: 2;
+}

@@ -1,0 +1,52 @@
+@import "z.less";
+//活动加息开始
+//活动加息结束
+.full_box{background:#fff;
+    .interest{
+        background:url(../img/bg.png) repeat-x; .h(222); border-bottom:1px solid #E55657; color:#fff; .tc;
+        p:nth-child(1){
+            .fs(68); .pt(30);
+        }
+        p:nth-child(2){
+            .fs(30); .pt(20);
+        }
+    }
+    .day{display: flex; justify-content: space-around; align-items:center; .h(79); border-bottom:2px solid #F4F3F3;color:#777; .fs(30); 
+    span:nth-child(2){.fs(28); color:#F4F3F3;}
+    
+    }
+    .detail_pic{.h(331); background:url(../img/detail_icon_bg.png) no-repeat center center; .p2(68,60); .bs(640,203);
+        .fourlist{display: flex;  justify-content:space-around; height:100%;  align-items:center; flex-wrap:wrap;}
+        
+        .listcon{ .fs(24); display: flex; align-items:center; color:#ffc166;
+            .w55{.h(55); .w(55); .lh(55); .tc; .fs(30);  border:2px solid #f5f5f5; border-radius:50%; .mr(13);}
+        }
+    }
+    //进度条开始
+    .progress{
+        .p2(0,33);
+        .graypro{.h(15); background:#F0F0F0; .br(7,7); position:relative;}
+        .redpro{.h(15); background:#F0F0F0; .br(7,7); position:absolute; top:0; left:0; .w(200); background:#FB0502;}
+        .pro_con{
+            display: flex; .pt(25);.pb(105); justify-content:space-between; color:#757575; .fs(22);
+            .cred{color:#FB0502;}
+        }
+    }
+    //进度条结束
+}
+//收益估计开始
+.reckon{
+    position:fixed; bottom:0; .h(105); background:#f0f0f0; width:100%;.fs(32);
+    .look{position:absolute; .t(-40); left:50%; transform:translateX(-50%); color:#808080; .fs(22);}
+    .reckon_b{display: flex; align-items:center;   
+        p:nth-child(1){.p4(0,51,0,36); color:#f90; position:relative;
+            .line{position:absolute; .b(-3); left:50%; transform:translateX(-55%); .h(2); .w(150); background:#f90;}
+            
+        }
+        p:nth-child(2){.pr(12);  color:#fff; .w(517); .h(82); .tc; .lh(82); background:#FA3432; .br(20,20); .mt(13);
+        }
+    }
+}
+//收益估计结束
+
+

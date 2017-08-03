@@ -1,0 +1,57 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+body {
+  background: #f9f9f9;
+}
+.loginsttar .photo {
+  height: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginsttar .photo img {
+  height: 1.85rem;
+}
+.loginsttar form {
+  padding: 0rem 0.24rem 1.75rem;
+}
+.loginsttar .tel .tel_txt {
+  font-size: 0.26rem;
+  color: #0e0e0e;
+  margin-bottom: 0.22rem;
+}
+.loginsttar .inp {
+  background: #fff;
+  border: 1px solid #eee;
+  height: 0.77rem;
+  line-height: 0.77rem;
+  border-radius: 0.1rem 0.1rem;
+  padding: 0rem 0.12rem;
+  display: flex;
+}
+.loginsttar .inp input {
+  width: 100%;
+  padding-left: 0.05rem;
+}
+.loginsttar .btn {
+  margin-top: 0.23rem;
+  margin-bottom: 0.2rem;
+  height: 0.81rem;
+  width: 100%;
+  background: #FA3432;
+  border-radius: 0.1rem 0.1rem;
+}
+.loginsttar .http {
+  text-align: center;
+  color: #565656l;
+  font-size: 0.25rem;
+}

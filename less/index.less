@@ -1,0 +1,136 @@
+@import "z.less";
+@import "zcm.less";
+//头部开始
+.header{display: flex; align-items: center; justify-content: space-between; .h(94); background:#FA3432; .p2(0,30); color:#fff;
+    a{color:#fff;}
+    .logo_img{
+        img{.h(47); .w(39);}
+
+    }
+    .logo{display:flex; align-items: center; justify-content: space-between;
+        h1{.ml(15); .fs(30);}
+        
+    }
+    .login_reginster{.fs(26);
+        a{.fs(26);}
+        
+    }
+
+}
+//头部结束
+
+//导航开始
+.nav{
+    .h(86); display:flex; justify-content: space-around; align-items: center; background:#fff;
+    .navlist{.fs(24); color:#4b4a4a;}
+    .current{color:#ff3636;}
+}
+//导航结束
+//轮播图开始
+.swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    .swipe-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+    .swipe-wrap > div {
+      float:left;
+      width:100%;
+      position: relative;
+    }
+    
+    img{ /*让图片100%*/
+        width: 100%;  
+    }
+    
+    .indirector{
+        position: absolute;
+        bottom:20px;
+        left:50%;transform: translateX(-50%);
+    }
+    .indirector span{
+        display: inline-block;margin: 3px;
+        width: 10px;height: 10px;border-radius: 50%;
+        background-color: #fff;
+    }
+    .indirector span.on{
+        background-color: red;
+    }
+}
+
+//轮播图结束
+//用户导航开始
+.usernav{.h(200); background:#fff; border-bottom:1px solid #E0E0DF;
+    display: flex; justify-content: space-around; align-items:center;
+    .userlist{.tc;
+        i{.tc; .h(90); .w(90); display: block; .lh(90); border-radius: 35%; .fs(35); color:#fff; .mb(20);}
+        .icon-suo{background:#4099E9;}
+        .icon-jiaruwomen{background:#FB6361;}
+        .icon-xinshouzhiyin{background:#40C8B0;}
+        .icon-wenti{background:#FFAE28;}
+        p{color:#808080; .fs(24);}
+    }
+ 
+}
+//用户导航结束
+//热门产品开始
+
+.section{
+    //公共标题开始
+    .p2(0,24);
+    .title{display: flex; justify-content: space-between; align-items:center;
+        .h(95); .fs(30);
+    }
+    .hot{
+        display: flex; align-items:center;  color:#494848; 
+        img{.h(45); .w(45); .mr(10);}
+    }
+    .more{color:#9a9b9c;}
+    //公共标题结束
+}
+.hotgoods{
+    .productlist{
+     .p3(26,26,0); .h(255); border:1px solid #E0E0DF; background:#fff; .mb(25);
+        
+    }
+    .productlist_t{display:flex; justify-content: space-between; .h(70);
+        .productlist_t_l{.fs(28); color:#494848; }
+        .productlist_t_r{display:flex; color:#fff; .lh(30);}
+        .fxj{.h(30); .w(83); color:#fff; background:#ffab37; .lh(30); .tc; .fs(20); border-radius:10% 8%;}
+        .icon-vip{.h(30); .w(33); .tc;  background:#ff7404; .ml(5); color:#fff; .fs(20);  border-radius:8% ;}
+    }
+    .productlist_b{display:flex; justify-content: space-around;
+        .productlist_b_l{.fs(24); color:#ff7900;}
+        .str{.fs(38); color:#fb4034;}
+    }
+    .productlist_b_m{.fs(30); color:#9A9B9C;}
+    .day{color:#3d3c3c; .mr(5); line-height:1.5;}
+    .productlist_b_r img{.h(140); .w(140);}
+
+}
+//热门产品结束
+
+//企业动态开始
+.business{
+    border-bottom:1px solid #E0E0DF; .p(0);
+    .title{border-bottom:1px solid #E0E0DF; .p2(0,24);}
+    .business_con{.p3(0,24,35);  background:#fff;
+    li{.pt(35);}
+        .business_list{display: flex;}
+        .list_pic{ .mr(23); flex:0 0 auto;
+        img{.h(110); .w(110); border-radius:15%;}
+            
+        }
+
+        .news{ color:#9A9B9C; .fs(25); flex:1 1 auto; 
+            .new_title{color:#494848; .fs(28); line-height:2;}
+            .origin{display:flex; justify-content: space-between; line-height:2;}
+        }
+    }
+}
+//企业动态结束
+
+
+

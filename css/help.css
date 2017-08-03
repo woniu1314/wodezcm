@@ -1,0 +1,74 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.help {
+  padding: 0rem 0.37rem 0rem 0.3rem;
+  border-bottom: 1px solid #dedede;
+}
+.help .helpitems {
+  height: 0.88rem;
+  display: flex;
+  align-items: center;
+}
+.help .helpitems .helpitems_pic {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 20%;
+  background: #FA9A33;
+  color: #fff;
+  font-size: 0.35rem;
+  text-align: center;
+  line-height: 0.6rem;
+  flex: 0 0 auto;
+}
+.help .helpitems .helpitems_r {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  font-size: 0.26rem;
+  color: #494848;
+  margin-left: 0.21rem;
+}
+.help .helpitems .helpitems_r .icon-start {
+  font-size: 0.35rem;
+  color: #FA9A33;
+}
+.hotline {
+  height: 1.27rem;
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.3rem;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #DEDEDE;
+  background: #fff;
+}
+.hotline .hotline_pic {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: #22CFD8;
+  border-radius: 25%;
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.68rem;
+  margin-right: 0.3rem;
+}
+.hotline .hotline_r .tel {
+  font-size: 0.28rem;
+  color: #494848;
+}
+.hotline .hotline_r .tel .num {
+  color: #22CFD8;
+}
+.hotline .hotline_r .time {
+  font-size: 0.22rem;
+  color: #9d9c9c;
+}
